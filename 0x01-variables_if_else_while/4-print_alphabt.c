@@ -9,7 +9,6 @@ int main(void)
 {
 
 	int y;
-	
 	for (y = 97; y < 123; y++)
 		if (y != 101 && y != 113)
 
