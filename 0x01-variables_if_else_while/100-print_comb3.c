@@ -5,24 +5,24 @@
 */
 int main(void)
 {
-	int n, m;
+	int y, z;
 
-	for (n = '0'; n < '9'; n++)
+	for (y = 48; y <= 56; y++)
 	{
-	
-	for (m = n + 1; m <= '9 m++)
+	for (z = 49; z <= 57; z++)
 	{
-	if (m != n)
+	if (z > y)
 	{
-	putchar(n);
-	putchar(m);
-	if (n == '8' && == '9')
-	continue;
+	putchar(y);
+	putchar(z);
+	if (y != 56 || z != 57)
+	{
 	putchar(',');
-	putchar(' ')
+	putchar(' ');
 	}
 	}
 	}
-	putchar('\n');	
+	}
+	putchar('\n');
 	return (0);
 }
