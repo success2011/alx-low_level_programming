@@ -5,13 +5,17 @@
 */
 int main(void)
 {
-	int v;
+	int d;
 
-	for (v = 48; v < 58; v++)
-		putchar(v);
-	if (v != 57)
-			putchar(',');
-			putchar(' ');
+	for (d = '0'; d <= '9'; d++)
+	{
+	putchar(d);
+	if (d != '9')
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	}
 	putchar('\n');
 	return (0);
 }
