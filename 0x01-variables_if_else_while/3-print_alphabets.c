@@ -10,7 +10,7 @@ int main(void)
 	int y;
 	
 	for (y = 0; y < 52; y++)
-		putchar(alp[i]);
+		putchar(alp[y]);
 	putchar('\n');
 	return (0);
 }
