@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Returun: 0
+ * main  "Entry Point"
+ * Return: 0
  */
 
 int main(void)
+
 {
 
 	_putchar('_');
