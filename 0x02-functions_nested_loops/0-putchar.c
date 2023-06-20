@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry Point
+ * main - "0-putchar.c file"
  * Written by Henry
  * Return: Always 0
  */
