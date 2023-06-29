@@ -4,7 +4,6 @@
  * @str: The string to be capitalizes
  * Return: A pointer to the changed string
  */
-
 char *cap_string(char *str)
 {
 	int index = 0;
@@ -25,10 +24,13 @@ char *cap_string(char *str)
 				str[index - 1] == '(' ||
 				str[index - 1] == ')' ||
 				str[index - 1] == '{' ||
-				str[index - 1] == '}' ||
-				index == 0)
-			str[index] -= 32;
-		index++;
+				str[index - 1] == '}'
+			{
+				str[index] -= 32;
+
+			}
+
+			index++;
 	}
 
 	return (str);
