@@ -3,8 +3,7 @@
  * _strchr - Entry point
  * @s: input
  * @c: input
- * Returen: If c is found - a pointer to first occurranc
- * if c is not found - Null
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
@@ -17,3 +16,4 @@ char *_strchr(char *s, char c)
 	}
 	return (0);
 }
+
