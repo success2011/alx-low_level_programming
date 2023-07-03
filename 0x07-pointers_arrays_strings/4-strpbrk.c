@@ -6,7 +6,8 @@
  * Return: Always 0 (Success)
  */
 char *_strpbrk(char *s, char *accept)
-{	ink k;
+{
+	ink k;
 
 	while (*s)
 	{
