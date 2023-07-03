@@ -3,9 +3,9 @@
  * _strchr - Entry point
  * @s: input
  * @c: input
- * Returen: Aways 0 (Success)
+ * Returen: If c is found - a pointer to first occurranc
+ * if c is not found - Null
  */
-
 char *_strchr(char *s, char c)
 {
 	int i = 0;
