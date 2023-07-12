@@ -7,7 +7,7 @@
  *
  * Return: number of words
  */
-intcount_word(char *s)
+int count_word(char *s)
 {
 	int flag, c, w;
 
