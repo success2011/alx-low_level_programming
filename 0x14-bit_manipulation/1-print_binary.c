@@ -7,11 +7,11 @@
 void print_binary(unsigned long int n)
 {
 	int z, add = 0;
-	unsigned long int now;
+	unsigned long int new;
 
 	for (z = 63; z >= 0; z--)
 	{
-		now = n >> z;
+		new = n >> z;
 
 		if (new & 1)
 		{
