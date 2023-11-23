@@ -14,7 +14,7 @@ void print_binary(unsigned long int n)
 	{
 		now = n >> z;
 
-		if (new & 1)
+		if (now & 1)
 		{
 			_putchar('1');
 			add++;
