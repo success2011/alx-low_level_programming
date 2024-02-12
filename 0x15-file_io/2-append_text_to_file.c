@@ -4,8 +4,8 @@
  * append_text_to_file - This is to append text in file end
  * @filename: This is to Point the name of file created
  * @text_content: This is string to be added
- * Return: -1 in case of fail function, If there is no 
- *	write permissions -1, Otherwise - 1.
+ * Return: -1 in case of fail function, If there is no
+ * write permissions -1, Otherwise - 1.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
